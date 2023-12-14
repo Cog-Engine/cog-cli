@@ -1,6 +1,6 @@
-const prompts = require('prompts');
+import prompts from 'prompts';
 
-const questions = [
+const questions:Array<prompts.PromptObject> = [
   {
     type: 'text',
     name: 'username',
