@@ -1,7 +1,7 @@
-import { Example } from "cog-cli-backend";
+import * as c from "cog-cli-backend";
 
 
 
 test("Test Example Function", () => {
-  expect(Example()).toBeTruthy()
+  expect(c.Example()).toBeTruthy()
 })
